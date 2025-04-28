@@ -1,32 +1,126 @@
-<h1>Mis datos personales</h1>
-<h2><i>Estos son mis datos generales:</i></h2>
-<ul>
-    <li> Mi nombre es <strong> Gallegos Garriazo, Alder</strong></li>
-    <li>  </li>
-</ul>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portada</title>
+    <style>
+        /* Definir una variable para el color de los subtítulos */
+        :root {
+            --color-subtitulo: #e44507; /* Cambia el valor aquí para cambiar el color de los subtítulos */
+            --color-fondo: #f9f9fd; /* Color de fondo */
+            --color-titulo: #f0e9e9; /* Color del título principal */
+            --color-header: #575454; /* Color del encabezado */
+            --color-texto: #a8a0a0; /* Color del texto */
+        }
 
-<h2><i>Mis hobies</i></h2>
-<ul>
-    <li> jugar futbol</li>
-    <li> jugar voley</li>
-    <li> juegos en linea</li>
-    <li> jugar free fire</li>
-</ul>
+        /* Estilos básicos del cuerpo */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--color-fondo);
+            margin: 0;
+            padding: 0;
+            color: var(--color-texto);
+        }
 
-<h2><i>Mis pasatiempos</i></h2>
-<ol>
-    <li> escuchar musica</li>
-    <li> ver videos</li>
-    <li> salir con amigos</li>
-    <li> salir al campo</li>
-</ol>
+        /* Estilos del encabezado */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: var(--color-header);
+            color: white;
+            padding: 20px;
+        }
 
-<h2><i>Mis actividades favoritas</i></h2>
-<ol>
-    <li> ir al gimnasio</li>
-    <li> Entrenar futbol</li>
-    <li> correr</li>
-    <li> dormir</li>
-    <li> jugar video juegos </li>
-</ol>
-<img src="./assets/images.jpg" alt="aqui esta la imagen de una persona corriendo" width="500px">
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: var(--color-titulo);
+        }
+
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        /* Estilos para el contenido principal */
+        main {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        /* Estilos para los subtítulos */
+        .subtitulo {
+            color:ver(--color-subtitulo); /* Aplicar el color del subtítulo desde la variable CSS */
+        }
+
+        p {
+            font-size: 18px;
+        }
+    
+    </style>
+</head>
+<body>
+
+<!-- Encabezado con título y foto -->
+<header>
+    <h1>Alder Gallegos Garriazo</h1>
+    <img src="assets\FB_IMG_1741203897945.jpg" alt="Foto de perfil"> <!-- Aquí puedes poner tu imagen -->
+   </header>
+
+<!-- Contenido principal -->
+<main>
+    <div class="section">
+        <h1 class="subtitulo">Descripción</h1>
+        <p>tengo 19 años soy de color carton .</p>
+    </div>
+
+    <div class="section">
+        <h1 class="subtitulo">Hobbies</h1>
+        <p>Me gusta  jugar futbool , leer , Mobile Legends.</p>
+    </div>
+
+    <div class="section">
+        <h1 class="subtitulo">Pasatiempos</h1>
+        <p>Me gusta  ver películas y partidos  , escuchar música.</p>
+    </div>
+
+    <div class="section">
+        <h1 class="subtitulo">Actividades Favoritas</h1>
+        <p>Jugar MLBB y furbool.</p>
+    </div>
+</main>
+<div class="link-container">
+    <a href="https://github.com/dashboard" target="_blank">
+        <img src="assets\github-icon.svg" alt="GitHub" style="width: 30px; height: 30px;" />
+      </a>
+      
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="assets/square-instagram-brands.svg" alt="Instagram" class="icon" style="width: 30px; height: 30px;"/>
+        </a>
+      
+        <a href="https://t.me/" target="_blank">
+          <img src="assets/telegram-brands (1).svg" alt="Telegram" class="icon" style="width: 30px; height: 30px;"/>
+        </a>
+      
+        <a href="https://www.tiktok.com/" target="_blank">
+          <img src="assets/tiktok-brands.svg" alt="TikTok" class="icon" style="width: 30px; height: 30px;"/>
+        </a>
+      
+        <a href="https://wa.me/+51927988774" target="_blank">
+          <img src="assets/whatsapp-brands.svg" alt="WhatsApp" class="icon"style="width: 30px; height: 30px;" />
+        </a>
+      </div>
+      
+</body> 
+</html>
