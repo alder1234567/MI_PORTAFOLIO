@@ -1,0 +1,86 @@
+/* Fondo general y texto base */
+body {
+  background-color: black;
+  color: black;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Imagen de perfil en el header */
+header img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 3px solid #f7f4f4;
+}
+
+/* Nombre en el header */
+header h1 {
+  text-align: center;
+  color: white;
+  font-size: 2.2em;
+  margin-top: 20px;
+}
+
+/* Estilos generales de sección */
+.section {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: beige;
+  border-radius: 12px;
+}
+
+/* Título de cada sección */
+.section h1,
+.seccion h2 {
+  color: black;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Párrafos dentro de secciones */
+.section p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+/* Listas */
+ul, ol {
+  margin-left: 20px;
+  font-size: 1.1em;
+  color: black;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Textos especiales */
+strong {
+  color: white;
+}
+
+i {
+  color: black;
+}
+
+sup, sub {
+  font-size: 0.8em;
+  color: #999;
+}
+
+/* Íconos sociales */
+.link-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.link-container img {
+  width: 30px;
+  height: 30px;
+}
